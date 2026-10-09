@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<title>K J Aswanth | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home">AS<span>.</span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+  <nav id="nav">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#education">Education</a>
+    <a href="#projects">Projects</a><a href="#github">GitHub</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="top-actions"><button class="icon-btn" id="themeToggle" title="Toggle theme">☼</button><a class="button small" href="resume.pdf" target="_blank" rel="noopener">Resume ↗</a></div>
+</header>
+<main>
+<section class="hero section" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="pulse"></span> COMPUTER SCIENCE STUDENT & DEVELOPER</p>
+    <h1>Hi, I'm <span>K J Aswanth.</span></h1>
+    <p class="hero-sub">I build useful things with code — from web applications to intelligent systems.</p>
+    <div class="hero-buttons"><a class="button" href="#projects">Explore my work <span>↘</span></a><a class="button ghost" href="#contact">Get in touch</a></div>
+    <div class="quick-facts"><span>📍 India</span><span>🎓 VIT-AP University</span><span>✉ aswanthkj10@gmail.com</span></div>
+  </div>
+  <div class="hero-art" aria-label="Decorative code illustration"><div class="orb"></div><div class="code-card"><div class="dots"><i></i><i></i><i></i><span>aswanth.java</span></div><pre><b>class</b> Developer {
+  String name = <em>"Aswanth"</em>;
+  String focus = <em>"Build & learn"</em>;
+
+  <b>void</b> create() {
+    solveProblems();
+    keepImproving();
+  }
+}</pre><div class="code-foot"><span>● Available to collaborate</span><span>01 / 04</span></div></div><div class="float-tag tag-one">⌘ Java</div><div class="float-tag tag-two">✦ Problem solver</div></div>
+</section>
+<section class="section" id="about"><div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>A little about <span>me</span></h2></div>
+<div class="about-grid"><div class="about-copy panel"><p>Highly motivated Computer Science student passionate about building scalable applications and solving real-world problems. Experienced in Android development using Android Studio and Java, with a strong foundation in programming, web development, and databases.</p><p>I enjoy turning ideas into practical projects, exploring new technologies, and working with others to solve meaningful problems.</p><a class="text-link" href="#contact">Let's connect <span>↗</span></a></div>
+<div class="stat-grid"><div class="stat panel"><strong>08<span>+</span></strong><small>Technical skills</small></div><div class="stat panel"><strong>02</strong><small>Featured projects</small></div><div class="stat panel"><strong>8.07</strong><small>CGPA</small></div><div class="stat panel"><strong>∞</strong><small>Things to learn</small></div></div></div></section>
+<section class="section" id="skills"><div class="section-heading"><p class="eyebrow">02 / TOOLKIT</p><h2>Skills & <span>strengths</span></h2></div><div class="skill-layout"><div class="panel skill-panel"><h3>Technical skills</h3><div class="chips"><span>Java</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span><span>Android Studio</span><span>MS Office</span></div></div><div class="panel skill-panel"><h3>Soft skills</h3><div class="soft-list"><span>↗ Problem solving</span><span>↗ Team collaboration</span><span>↗ Communication</span><span>↗ Adaptability</span><span>↗ Time management</span><span>↗ Creativity</span></div></div></div></section>
+<section class="section" id="education"><div class="section-heading"><p class="eyebrow">03 / LEARNING</p><h2>My <span>education</span></h2></div><div class="timeline panel"><article><div class="timeline-dot"></div><p class="eyebrow">2023 — PRESENT</p><h3>VIT-AP University</h3><p>Integrated M.Tech in Computer Science & Engineering</p><span class="pill">CGPA: 8.07</span></article><article><div class="timeline-dot"></div><p class="eyebrow">SCHOOL EDUCATION</p><h3>Kendriya Vidyalaya Thrissur</h3><p>Class X: 94% <span class="muted">|</span> Class XII: 88%</p></article></div></section>
+<section class="section" id="projects"><div class="section-heading split-heading"><div><p class="eyebrow">04 / SELECTED WORK</p><h2>Projects that <span>I've built</span></h2></div><button class="button ghost" id="adminOpen">⚙ Manage projects</button></div><div class="project-grid" id="projectGrid"></div></section>
+<section class="section" id="github"><div class="section-heading split-heading"><div><p class="eyebrow">05 / OPEN SOURCE</p><h2>From my <span>GitHub</span></h2><p class="section-desc">Public repositories pulled directly from GitHub.</p></div><a class="text-link" id="githubProfile" href="https://github.com/" target="_blank" rel="noopener">View profile ↗</a></div><div class="github-controls"><label for="githubUser">GitHub username</label><input id="githubUser" placeholder="Enter GitHub username" value="aswanthkj10"><button class="button" id="loadGithub">Load repositories</button></div><div id="githubStatus" class="status" aria-live="polite">Load public repositories to get started.</div><div class="github-grid" id="githubGrid"></div></section>
+<section class="section" id="contact"><div class="section-heading"><p class="eyebrow">06 / SAY HELLO</p><h2>Have a project in <span>mind?</span></h2><p class="section-desc">Send a message and your email app will open with the details ready to send.</p></div><div class="contact-layout"><div class="contact-info panel"><h3>Let's talk.</h3><p>I'm always open to discussing projects, ideas, and opportunities to learn.</p><a href="mailto:aswanthkj10@gmail.com">✉ aswanthkj10@gmail.com</a><p>☎ +91 7736018650</p><a href="https://github.com/aswanthkj10" target="_blank" rel="noopener">⌘ github.com/aswanthkj10 ↗</a></div><form class="panel contact-form" id="contactForm"><div class="form-row"><label>Your name<input name="name" required maxlength="80" placeholder="Jane Doe"></label><label>Email address<input name="email" type="email" required maxlength="120" placeholder="jane@example.com"></label></div><label>Subject<input name="subject" required maxlength="120" placeholder="Let's build something"></label><label>Message<textarea name="message" required maxlength="2000" rows="5" placeholder="Tell me a little about it..."></textarea></label><button class="button" type="submit">Prepare email ↗</button><p class="form-note">This static version does not store messages on a server.</p><div id="contactStatus" class="status" aria-live="polite"></div></form></div></section>
+</main>
+<footer><a class="brand" href="#home">AS<span>.</span></a><p>Designed & built by K J Aswanth</p><a href="#home">Back to top ↑</a></footer>
+
+<div class="modal-backdrop" id="adminModal" hidden><section class="modal panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="close-btn" id="closeAdmin" aria-label="Close">×</button><div id="adminLogin"><p class="eyebrow">LOCAL DEMO CONTROLS</p><h2 id="modalTitle">Project dashboard</h2><p class="muted">Demo access: password is <code>admin123</code>. This browser-only demo is not secure for public deployment.</p><form id="loginForm"><label>Demo password<input type="password" id="adminPassword" required placeholder="Enter demo password"></label><button class="button" type="submit">Unlock dashboard</button><p id="loginError" class="error"></p></form></div>
+<div id="dashboard" hidden><div class="dashboard-head"><div><p class="eyebrow">PORTFOLIO ADMIN</p><h2>Manage projects</h2></div><button class="button small" id="logout">Lock</button></div><form id="projectForm" class="editor"><input type="hidden" id="editId"><label>Project title<input id="projectTitle" required maxlength="100"></label><label>Description<textarea id="projectDescription" required rows="3" maxlength="600"></textarea></label><label>Technologies (comma-separated)<input id="projectTech" placeholder="Java, Spring Boot"></label><label>GitHub URL<input id="projectGithub" type="url" placeholder="https://github.com/..."></label><label>Live demo URL<input id="projectDemo" type="url" placeholder="https://..."></label><div class="form-actions"><button class="button" type="submit" id="saveProject">Save project</button><button class="button ghost" type="button" id="cancelEdit">Clear</button></div></form><h3>Current projects</h3><div id="adminProjectList" class="admin-list"></div><button class="text-link export-btn" id="exportProjects">Export project data (JSON) ↓</button><p class="form-note">Changes are saved only in this browser using localStorage.</p></div></section></div>
+<script src="app.js"></script>
+</body></html>
